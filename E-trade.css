@@ -1,0 +1,346 @@
+body{
+	margin: 0 auto;
+	max-width: 100%;
+	font-weight: 500 !important;
+}
+
+.pre{
+	background: url(eTrade/Etrade/campaign-bg.png);
+	width: 100%;
+	text-align: center;
+}
+.menu .a1{
+	text-decoration: none;
+	color: #000;
+}
+
+.icon{
+	padding: 5px;
+	border-radius: 50%;
+	background-color: #8a4ff1;
+	color: #fff;
+}
+.icon-pink{
+	padding: 5px;
+	border-radius: 50%;
+	background-color: deeppink;
+	color: #fff;
+}
+
+/*header*/
+header{
+	width: 100%;
+	position: sticky;
+	z-index: 99999;
+	background-color: #f9f3f0;
+}
+.pre1{
+    background-color: #f9f3f0;
+    margin: 0 auto;
+ }
+.max-content{
+	max-width:68%;
+	margin : 0 auto;
+}
+.normal{
+	display: flex;
+    justify-content: space-between;
+    padding: 8px 5px;
+    background-color: white;
+    border-radius: 7px;
+}
+header .menu a{
+	padding: 0px 10px;
+	font-size: 20px;
+}
+.flated{
+	display: flex;
+    justify-content: space-between;
+    width: 70%;
+    align-items: center;
+}
+
+/*Main section*/
+
+main{
+    display: flex;
+    justify-content: center;
+    background-color: #f9f3f0;
+    padding: 90px 0;
+}
+
+main .middel{
+	width: 30%;
+	position: relative;
+}
+main .middel img{
+	width: 100%;
+	background: url(eTrade/Etrade/shape-1.png);
+	background-repeat: no-repeat;
+}
+main .right{
+	width: 10%;
+	margin-top: auto;
+	background: url(eTrade/Etrade/shape-2.png);
+	background-repeat: no-repeat;
+}
+main .left{
+	width: 20%;
+}
+main .right img{
+	width: 100%;
+}
+.text{
+	color: deeppink;
+	
+}
+/*main .left */.roco{
+	font-weight: bolder;
+    font-size: xxx-large;
+    margin: 30px 0;
+}
+main .left .shop .btn{
+	border: none;
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #000;
+}
+main .left .shop{
+	display: flex;
+	justify-content: space-between;
+	width: 80%;
+}
+main .left .shop p{
+	font-size: 10px;
+	color: gray;
+}
+main .left .shop .reviews{
+	width: 28%;
+	position: relative;
+}
+main .left .shop .reviews img{
+	position: absolute;
+}
+main .left .shop .reviews .img1{
+	left: 0;
+}
+main .left .shop .reviews .img2{
+	left: 25px;
+}
+main .left .shop .reviews .img3{
+	left: 45px;
+}
+main .left .shop .reviews .img4{
+	left: 65px;
+}
+main .middel .price{
+	position: absolute;
+	top: 23%;
+    right: 53%;
+    background-color: white;
+	border-radius: 75%;
+    padding: 7px;
+}
+main .middel .price p{
+	margin: 7px;
+	color: gray;
+}
+main .middel .price .amount{
+	color: #155bd5 !important;
+}
+
+
+/*section 2*/
+
+.text-cat p{
+	color: deeppink;
+}
+
+.main-timer{
+	margin: 200px 0 !important;
+	background-color: #f1f5f9;
+	padding: 50PX;
+}
+.timer{
+	width: 13% !important;
+	text-align: center;
+	padding: 12px;
+	margin: 5px;
+}
+.timer h3,.timer p{
+	margin: 0;
+}
+.main-timer .image img{
+	position: relative;
+	bottom: 30%;
+}
+
+
+/*Section 3*/
+
+
+
+.sec3{
+	padding: 90px 0;
+}
+.text-product h5 span,.new-product h5 span,.store h5 span{
+	text-decoration: line-through;
+	color: gray;
+}
+.product-btn{
+    background-color: #f8f9fa;
+    color: #6c757d;
+    border-radius: 5px;
+}
+/*.product-dicount{
+	position: absolute;
+}*/
+.special-dicount{
+	position: relative;
+	bottom: 60%;
+	left: 76%;
+	border-radius: 5px;
+	padding: 2px;
+	box-shadow: 0 8px 16px 0 rgba(53,119,240,.3);
+	font-size: 13px;
+}
+
+/*Section 4*/
+
+
+.sec4 {
+	background-color: #f9f3f0;
+	padding: 90px 0;
+}
+
+.media-txt p {
+	position: relative;
+	border-radius: 10px;
+	line-height: 28px;
+}
+
+.media-txt p::after{
+	content: "";
+	border-top: 25px solid #fff;
+    border-right: 50px solid #fff;
+    background-color: #fff;
+	position: absolute;
+	bottom: -13%;
+    left: 25%;
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075);
+}
+
+
+
+/*section 5*/
+
+
+
+
+
+.sec5, 
+.sec6 {
+	padding: 90px 0;
+}
+.section-titel p,.txt-product p,.store-txt p{
+	color: #8a4ff1;
+}
+/*.dicount{
+	position: absolute;
+}*/
+.product-badget{
+	position: relative;
+	bottom: 63%;
+	left: 34%;
+	border-radius: 5px;
+	padding: 2px;
+	box-shadow: 0 8px 16px 0 rgba(53,119,240,.3);
+}
+.cart {
+    color: #fff;
+    font-size: 12px;
+    padding: 10px 35px;
+    display: block;
+    border-radius: 4px;
+    background-color: #e01e54c7;
+}
+
+
+
+/*Section 6*/
+
+
+
+/*Section 7*/
+
+
+.first{
+	position: relative;
+}
+.poster1-txt{
+	position: absolute;
+	top: 18%;
+	left: 54%;
+}
+.poster1-txt p{
+	font-size: 40px;
+}
+.poster1-txt span{
+	color: #c0c0c0;
+}
+
+
+.second{
+	position: relative;
+}
+.poster2-txt{
+	position: absolute;
+	top: 26%;
+	left: 8%;
+}
+.poster2-txt p{
+	font-size: 40px;
+}
+.poster2-txt span{
+	color: #c0c0c0;
+}
+
+.bg-image{
+	background: url("eTrade/Etrade/bg-image-5.jpg");
+	padding: 140px 0;
+	background-repeat: no-repeat;
+	width: 100%;
+	background-size: cover;
+}
+
+.news input::before{
+	content: "\f0e0";
+	font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+}
+/*.mail-txt{
+  padding-left: 25px;
+  background: url("https://static.thenounproject.com/png/101791-200.png") no-repeat left;
+  background-size: 20px;
+}
+*/
+.blue-icon {
+    padding: 5px;
+    border-radius: 50%;
+    background-color: #155bd5;
+    color: #fff;
+}
+.bg-image p + span{
+	font-size: 35px;
+	font-weight: bold;
+}
+
+
+/*Footer section*/
+
+.footer-txt{
+	list-style-type: none;
+}

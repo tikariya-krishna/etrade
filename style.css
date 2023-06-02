@@ -5,7 +5,7 @@ body{
 }
 
 .pre{
-	background: url(eTrade/Etrade/campaign-bg.png);
+	background: url(images/campaign-bg.png);
 	width: 100%;
 	text-align: center;
 }
@@ -75,13 +75,13 @@ main .middel{
 }
 main .middel img{
 	width: 100%;
-	background: url(eTrade/Etrade/shape-1.png);
+	background: url(images/shape-1.png);
 	background-repeat: no-repeat;
 }
 main .right{
 	width: 10%;
 	margin-top: auto;
-	background: url(eTrade/Etrade/shape-2.png);
+	background: url(images/shape-2.png);
 	background-repeat: no-repeat;
 }
 main .left{
@@ -308,7 +308,7 @@ main .middel .price .amount{
 }
 
 .bg-image{
-	background: url("eTrade/Etrade/bg-image-5.jpg");
+	background: url("images/bg-image-5.jpg");
 	padding: 140px 0;
 	background-repeat: no-repeat;
 	width: 100%;
